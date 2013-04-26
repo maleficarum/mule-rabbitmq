@@ -80,7 +80,7 @@ public class RabbitMQCloudConnector {
      * The following is a sample operation
      */
     @Operation
-    public String toUpper(String name) {
-    	return name.toUpperCase();
+    public String send(String message) {
+    	return message.toUpperCase();
     }
 }
