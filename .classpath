@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/mule-cloud-connector-annotations-2.0.15.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
+	<classpathentry kind="lib" path="lib/mule-devkit-annotations-3.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-client.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
