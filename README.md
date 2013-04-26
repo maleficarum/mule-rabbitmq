@@ -13,7 +13,7 @@ After that, you must modify mule-config.xml to add the connector schema as follo
 #### Add the namespaces
 	xmlns:rabbitmq="http://www.mulesoft.org/schema/mule/rabbitmq"
 
-Include de XSD location
+#### Include de XSD location
 	http://www.mulesoft.org/schema/mule/rabbitmq http://www.mulesoft.org/schema/mule/rabbitmq/1.0-SNAPSHOT/mule-rabbitmq.xsd
 
 #### Configuration
